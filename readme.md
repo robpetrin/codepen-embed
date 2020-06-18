@@ -1,4 +1,4 @@
-This custom mini-block was created as part of the application process at Automattic. It is a simple tool, but I'm very proud of it! I wanted to recognize the tool I used as boilerplate. I ended up needing to extend it more than I expected, as this example does not assume the ability to have custom attributes editable on the back-end. That was pretty tricky, but I'm glad I was able to accomplish it. Thanks!
+I've created a small tool to allow the embedding of Codepens as a custom Gutenberg Block. I wanted to recognize the tool I used as boilerplate. I ended up needing to extend it more than I expected, as this example does not assume the ability to have custom attributes editable on the back-end. That was pretty tricky, but I'm glad I was able to accomplish it. Thanks!
 
 ***************************
 
