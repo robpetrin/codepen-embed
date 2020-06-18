@@ -1,0 +1,18 @@
+
+// Removing inline styles from the embedded element
+.codepen {
+  height: 40vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+// Making the iframe a usable size
+.cp_embed_iframe {
+  min-width: 600px;
+  height: 700px;
+}

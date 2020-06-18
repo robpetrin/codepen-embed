@@ -1,0 +1,12 @@
+// Making my labels red
+label {
+    font-weight: 900;
+    color: red;
+}
+
+// Making my help text stand out a little more
+strong {
+    span { 
+        color: red;
+    }
+}
