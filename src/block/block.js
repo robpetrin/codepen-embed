@@ -12,33 +12,33 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
 
 registerBlockType( 'cgb/block-codepen-embed', {
 	// "Block Name" -- must be a string with a namespace (cgb) prefix.
-	title: __( 'Codepen Embed' ), // My block's title
+	title: __( 'CodePen Embed' ), // My block's title
 	icon: 'smiley', // https://developer.wordpress.org/resource/dashicons/.
 	category: 'embed', // Block category — common, formatting, layout widgets, embed, etc.
 	keywords: [
-		__( 'Codepen Embed' )
+		__( 'CodePen Embed' )
 	],
 	attributes: {
 		userName: {
 			type: 'string',
-			default: 'robpetrin' // My Codepen Username
+			default: 'robpetrin' // My CodePen Username
 		},
 		penSlug: {
 			type: 'string',
-			default: 'ExVqbGJ' // The slug (URL suffix) for the Codepen I want to show off
+			default: 'ExVqbGJ' // The slug (URL suffix) for the CodePen I want to show off
 		},
 		penTitle: {
 			type: 'string',
-			default: 'A Very Fancy Codepen' // An innocuous display name for the Codepen to be shown off
+			default: 'A Very Fancy CodePen' // An innocuous display name for the CodePen to be shown off
 		}
 	}, 
 
 	// The logic/structure of the back-end editor view of this Block.
 	edit: ( props ) => {
 
-		let name = props.attributes.userName // Binding a local copy of the Codepen username
-		let slug = props.attributes.penSlug // Binding a local copy of the Codepen's URL slug
-		let title = props.attributes.penTitle // Binding a local copy of the Codepen's title
+		let name = props.attributes.userName // Binding a local copy of the CodePen username
+		let slug = props.attributes.penSlug // Binding a local copy of the CodePen's URL slug
+		let title = props.attributes.penTitle // Binding a local copy of the CodePen's title
 
 		
 		function onChangeUserName ( content ) {
@@ -58,9 +58,9 @@ registerBlockType( 'cgb/block-codepen-embed', {
 
 		return (
 			<div>
-				<p>The common format for a Codepen URL is <strong>https://codepen.io/<span>username</span>/pen/<span>slug</span></strong></p>
+				<p>The common format for a CodePen URL is <strong>https://codepen.io/<span>username</span>/pen/<span>slug</span></strong></p>
 				<p>
-					<label for="set-username">Set Codepen Username</label>
+					<label for="set-username">Set CodePen Username</label>
 					<br />
 					<TextControl
                         className={props.className} // Necessary to make the input automatically editable
@@ -70,7 +70,7 @@ registerBlockType( 'cgb/block-codepen-embed', {
                     />
 				</p>
 				<p>
-					<label for="set-slug">Set Codepen Slug</label>
+					<label for="set-slug">Set CodePen Slug</label>
 					<br />
 					<TextControl
                         className={props.className} // Necessary to make the input automatically editable
@@ -80,7 +80,7 @@ registerBlockType( 'cgb/block-codepen-embed', {
                     />
 				</p>
 				<p>
-					<label for="set-title">Set Codepen Title</label>
+					<label for="set-title">Set CodePen Title</label>
 					<br />
 					<TextControl
                         className={props.penTitle} // Necessary to make the input automatically editable

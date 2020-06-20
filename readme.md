@@ -1,4 +1,4 @@
-I've created a small tool to allow the embedding of Codepens as a custom Gutenberg Block. I wanted to recognize the tool I used as boilerplate. I ended up needing to extend it more than I expected, as this example does not assume the ability to have custom attributes editable on the back-end. That was pretty tricky, but I'm glad I was able to accomplish it. Thanks!
+I've created a small tool to allow the embedding of CodePens as a custom Gutenberg Block. I wanted to recognize the tool I used as boilerplate. I ended up needing to extend it more than I expected, as this example does not assume the ability to have custom attributes editable on the back-end. That was pretty tricky, but I'm glad I was able to accomplish it. Thanks!
 
 ***************************
 

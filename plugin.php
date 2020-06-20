@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Codepen Embed (Gutenberg Block)
+ * Plugin Name: CodePen Embed (Gutenberg Block)
  * Plugin URI: https://petr.in
- * Description: A tool for embedding Codepens without the need to deal with any code! (Made possible thanks to "create-guten-block" by mrahmadawais and maedahbatool)
+ * Description: A tool for embedding CodePens without the need to deal with any code! (Made possible thanks to "create-guten-block" by mrahmadawais and maedahbatool)
  * Author: robpetrin
  * Author URI: https://petr.in
  * Version: 1.0.0
